@@ -147,9 +147,7 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 16px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 45px;
+  padding: 14px 45px;
   background-color: white;
   background-size: 1170px 70px;
   border-radius: 15px;
@@ -168,7 +166,7 @@ h2 {
 }
 
 .nav-button-header {
-  margin-right: 49px;
+  margin-left: 49px;
   padding: 13px 20px;
   background-color: white;
   color: #cc9933;
@@ -193,7 +191,6 @@ h2 {
               url("../LAGOONA_IMG/Rectangle\ 14.jpg") left top no-repeat;
   border-radius: 15px;
   padding-left: 40px;
-  padding-bottom: 40px;
 }
 
 .list-offers-content-Crete {
@@ -201,7 +198,6 @@ h2 {
               url("../LAGOONA_IMG/Rectangle\ 16.jpg") left top no-repeat;
   border-radius: 15px;
   padding-left: 40px;
-  padding-bottom: 40px;
 }
 
 .offer-title-maldives-crete {
@@ -241,7 +237,8 @@ h2 {
 
 .special-offer-title-luxury-rooms {
   width: 55%;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
   font-family: Muller;
   font-style: normal;
   font-weight: bold;
