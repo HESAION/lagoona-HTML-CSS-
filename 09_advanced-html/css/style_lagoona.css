@@ -1,0 +1,794 @@
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerLight.woff2') format('woff2'),
+    url('../fonts/MullerLight.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  background-color: #e5e5e5;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  margin: 0px;
+  padding-left: 40px;
+}
+
+/* header */
+
+.container{
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sections-position {
+  padding-top: 70px;
+}
+
+.header {
+  padding-top: 30px;
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.main-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  padding-left: 23px;
+  width: 261px;
+  height: 54px;
+  border-radius: 15px;
+  background-color: #F0BF5F;
+}
+
+.name-logo {
+  width: 139px;
+  height: 39px;
+  margin-top: 7px;
+  padding-right: 6px;
+  border-right: 1px solid #F5D494;
+}
+
+.phone-number {
+  margin-right: auto;
+  font-family: Muller;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.personal-account {
+  padding-left: 28px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+  background-image: url("../LAGOONA_IMG/strelochka.png");
+  background-position: left;
+  background-size: 21px 12px;
+  background-repeat: no-repeat;
+}
+
+.header-navigation {
+  display: flex;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 14px 45px;
+  background-color: white;
+  background-size: 1170px 70px;
+  border-radius: 15px;
+
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  border-right: 1px solid #E1E1E1;
+}
+
+.nav-item {
+  padding-right: 45px;
+}
+
+.nav-button-header {
+  margin-left: 49px;
+  padding: 13px 20px;
+  background-color: white;
+  color: #cc9933;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+
+/* section "Special offers"*/
+
+.list-offers {
+  display: grid;
+  grid-template-columns: 573px 573px;
+  grid-auto-rows: 258px;
+  grid-column-gap: 23px;
+  grid-row-gap: 23px;
+  padding-top: 20px;
+}
+
+.list-offers-content-Maldives {
+  background: url("../LAGOONA_IMG/DARKEN.png") left top no-repeat,
+              url("../LAGOONA_IMG/Rectangle\ 14.jpg") left top no-repeat;
+  border-radius: 15px;
+  padding-left: 40px;
+}
+
+.list-offers-content-Crete {
+  background: url("../LAGOONA_IMG/DARKEN.png") left top no-repeat,
+              url("../LAGOONA_IMG/Rectangle\ 16.jpg") left top no-repeat;
+  border-radius: 15px;
+  padding-left: 40px;
+}
+
+.offer-title-maldives-crete {
+  width: 55%;
+  margin-bottom: 15px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.offer-price-maldives-crete {
+  margin-bottom: 47px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.list-offers-content-luxury-rooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url("../LAGOONA_IMG/33\ 1.jpg");
+  height: 540px;
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-bottom: 41px;
+}
+
+.special-offer-title-luxury-rooms {
+  width: 55%;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+
+.offer-price-luxury-rooms {
+  margin-bottom: 47px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.more-about-offer {
+  padding-right: 14px;
+  background-image: url("../LAGOONA_IMG/Rectangle\ 2.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFCC66;
+}
+
+
+/* section "about us"*/
+
+.p-about-us {
+  width: 76%;
+  margin: 0px;
+  padding-top: 11px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+
+/* section "services"*/
+
+.list-services {
+  padding-top: 20px;
+}
+
+.width-services-cards {
+  width: calc((100% - 23px) / 2);
+}
+
+.left-top-image {
+  margin-bottom: 23px;
+  padding-left: 45px;
+  background-image: url("../LAGOONA_IMG/10.jpg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.left-bottom-image {
+  padding-left: 45px;
+  background-image: url("../LAGOONA_IMG/12.jpg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.right-top-image {
+  margin-bottom: 23px;
+  padding-left: 45px;
+  background-image: url("../LAGOONA_IMG/15.jpg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.right-bottom-image {
+  padding-left: 45px;
+  background-image: url("../LAGOONA_IMG/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 573px 165px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+
+.list-services-content-title {
+  display: inline-block;
+  margin-top: 191px;
+  margin-bottom: 0px;
+  padding-right: 14px;
+  background-image: url("../LAGOONA_IMG/Rectangle 3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #CC9933;
+}
+
+.services-description {
+  width: 70%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000
+}
+
+
+/* section advantages*/
+
+.list-advantages {
+  padding-top: 7px;
+}
+
+.list-advantages-content {
+  display: inline-block;
+  width: calc((100% - 69px) / 4);
+  margin-top: 23px;
+  background-color: white;
+  border-radius: 15px;
+}
+.bathtub {
+  background-image: url("../LAGOONA_IMG/bathtub.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.hanger {
+  background-image: url("../LAGOONA_IMG/hanger.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.heating {
+  background-image: url("../LAGOONA_IMG/heating.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.hotel-key {
+  background-image: url("../LAGOONA_IMG/hotel-key.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.parking {
+  background-image: url("../LAGOONA_IMG/parking.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.reception {
+  background-image: url("../LAGOONA_IMG/reception.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.security-box {
+  background-image: url("../LAGOONA_IMG/security-box.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+.swimming-pool {
+  background-image: url("../LAGOONA_IMG/swimming-pool.png");
+  background-repeat: no-repeat;
+  background-position-x: 45px;
+  background-position-y: 40px;
+}
+
+
+.advantages-description {
+  padding-top: 118px;
+  padding-left: 45px;
+  padding-right: 42px;
+  padding-bottom: 41px;
+  width: 100%;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+}
+
+
+/* section placement*/
+
+.list-placement {
+  margin-top: 7px;
+  margin-bottom: 70px;
+}
+
+.list-placement-content {
+  width: calc((100% - 46px) / 3);
+  margin-top: 23px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.img-placement {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+.cards-position {
+  padding-left: 45px;
+  padding-bottom: 41px;
+  margin-right: 46px;
+
+}
+
+.placement-price-numbers {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+
+.placement-price {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.rating {
+  padding-left: 45px;
+}
+
+.name-hotel {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.location {
+  margin-bottom: 16px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.button-rooms {
+  padding: 13px 20px;
+  background-color: white;
+  color: #cc9933;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+
+
+.last-card-placement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 54px;
+  padding-bottom: 27px;
+  padding-right: 54px;
+  background-image: url("../LAGOONA_IMG/41.jpg");
+}
+
+.view-all-options {
+  background-image: url("../LAGOONA_IMG/Rectangle\ 2\ white.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: white;
+}
+
+
+/* forms "want a tour" */
+
+.want-tour-title {
+  padding-left: 0px;
+  margin-bottom: 19px;
+}
+
+.form-tour {
+  padding-top: 38px;
+  padding-left: 40px;
+  padding-right: 45px;
+  padding-bottom: 71px;
+  border-radius: 15px;
+  background-color: #E9E9E9;
+}
+
+.forms-block {
+  display: flex;
+  margin-left: 5px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.titles-forms {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.form {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #E1E1E1;
+}
+
+
+.form-select {
+  width: 169px;
+  border: 0px;
+}
+
+
+.forms-options {
+  width: 122px;
+  border: 0px;
+  border-bottom: 1px solid #CCCCCC;;
+}
+
+.submit-button {
+  padding: 17px 30px;
+  margin-left: 21px;
+  background-color: white;
+  color: #cc9933;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+.forms-text {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+
+/* section contacts */
+
+.contacts-main-title {
+  padding-left: 0px;
+  margin-bottom: 26px;
+  padding-left: 41px ;
+}
+
+.contacts-block {
+  display: flex;
+  padding-left: 46px;
+  padding-top: 44px;
+  padding-right: 44px;
+  padding-bottom: 46px;
+  margin-bottom: 19px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.li-contacts {
+  display: flex;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 23px;
+  margin-bottom: 25px;
+}
+
+.contacts-title {
+  margin: 0px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.title-adress {
+  margin-right: 83px;
+}
+
+.title-phones {
+  margin-right: 47px;
+}
+
+.title-e-mail {
+  margin-right: 84px;
+}
+
+.title-chart {
+  margin-right: 74px;
+}
+
+.color-phone-email {
+  color: #CC9933;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-bottom: 0px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.btn-build-route {
+  margin-top: 20px;
+  margin-right: 167px;
+  padding: 27px 29px;
+  background-color: white;
+  color: #cc9933;
+  border: 1px solid #cc9933;
+  border-radius: 15px;
+}
+
+
+/* footer */
+
+footer {
+  margin-bottom: 20px;
+  padding-left: 52px;
+  padding-top: 44px;
+  padding-right: 51px;
+  padding-bottom: 46px;
+  border-radius: 15px;
+  background-color: #333333;
+  background-image: url("/LAGOONA_IMG/logo-footer.png");
+  background-repeat: no-repeat;
+  background-position-x: 738px;
+  background-position-y: 132px;
+}
+
+footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 190%;
+  color: #FFFFFF;
+}
+
+.footer-information p {
+  margin-bottom: 49px;
+}
+
+.footer-adress {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 190%;
+  color: #FFFFFF;
+}
+
+footer img {
+  color: #999999;;
+}
+
+footer a {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+}
+
+.contacts-margins {
+  margin-bottom: 14px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
