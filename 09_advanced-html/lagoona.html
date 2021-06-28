@@ -62,7 +62,7 @@
             </li>
         </ul>
 
-        <a href="#want-a-tour"><button class="nav-button-header">Хочу тур</button></a>
+        <button class="nav-button-header">Хочу тур</button>
         <button class="nav-button-header">Обратный звонок</button>
       </nav>
     </div>
@@ -336,13 +336,13 @@
     <form class="forms-block" action="https://jsonplaceholder.typicode.com/posts" method="POST">
       <div class="form">
         <p class="titles-forms">Город вылета</p>
-        <select name="city-departure" id="" class="form-select forms-text">
+        <select name="city-departure" class="form-select forms-text">
           <option selected value="s1">Санкт-Петербург</option>
         </select>
       </div>
       <div class="form">
         <p class="titles-forms">Страна</p>
-        <select name="country-arrive" id="" class="form-select forms-text">
+        <select name="country-arrive" class="form-select forms-text">
           <option selected value="s1">Австралия</option>
         </select>
       </div>
@@ -367,38 +367,39 @@
   <section id="contacts" class="container sections-position">
     <h2 class="contacts-main-title">Контакты</h2>
     <div class="contacts-block">
-      <ul class="contacts">
+      <div class="contacts">
+        <ul>
+          <li class="li-contacts">
+            <h4 class="contacts-title title-adress">Адрес</h4>
+            <address class="contact-information">Москва, улица Юности, дом 5, строение 4, офис 2</address>
+          </li>
 
-        <li class="li-contacts">
-          <h4 class="contacts-title title-adress">Адрес</h4>
-          <address class="contact-information">Москва, улица Юности, дом 5, строение 4, офис 2</address>
-        </li>
+          <li class="li-contacts">
+            <h4 class="contacts-title title-phones">Телефоны</h4>
+            <div class="contact-information">
+              <a href="tel:+74995356434" class="contact-information color-phone-email">+7 (499) 535-64-34</a>
+              <a href="tel:+74950050544" class="contact-information color-phone-email">+7 (495) 005-05-44</a>
+            </div>
+          </li>
 
-        <li class="li-contacts">
-          <h4 class="contacts-title title-phones">Телефоны</h4>
-          <div class="contact-information">
-            <a href="tel:+74995356434" class="contact-information color-phone-email">+7 (499) 535-64-34</a>
-            <a href="tel:+74950050544" class="contact-information color-phone-email">+7 (495) 005-05-44</a>
-          </div>
-        </li>
+          <li class="li-contacts">
+            <h4 class="contacts-title title-e-mail">E-mail</h4>
+            <div class="contact-information">
+              <a href="mailto:lg.oona@mail.ru" class="contact-information color-phone-email">lg.oona@mail.ru</a>
+              <p  class="contact-information">по вопросам бронирования</p>
+              <a href="mailto:hotels.ln@mail.ru" class="contact-information color-phone-email">hotels.ln@mail.ru</a>
+              <p class="contact-information">по вопросам сотрудничества</p>
+            </div>
+          </li>
 
-        <li class="li-contacts">
-          <h4 class="contacts-title title-e-mail">E-mail</h4>
-          <div class="contact-information">
-            <a href="mailto:lg.oona@mail.ru" class="contact-information color-phone-email">lg.oona@mail.ru</a>
-            <p  class="contact-information">по вопросам бронирования</p>
-            <a href="mailto:hotels.ln@mail.ru" class="contact-information color-phone-email">hotels.ln@mail.ru</a>
-            <p class="contact-information">по вопросам сотрудничества</p>
-          </div>
-        </li>
-
-        <li class="li-contacts">
-          <h4 class="contacts-title title-chart">График</h4>
-          <p class="contact-information">Понедельник - пятница, с 10:00 до 19:00</p>
-        </li>
+          <li class="li-contacts">
+            <h4 class="contacts-title title-chart">График</h4>
+            <p class="contact-information">Понедельник - пятница, с 10:00 до 19:00</p>
+          </li>
+        </ul>
         <button class="btn-build-route">Построить маршрут</button>
-      </ul>
-      <img src="LAGOONA_IMG/Layer 2 1.jpg" alt="reception">
+      </div>
+      <img src="LAGOONA_IMG/Layer21.jpg" alt="reception">
     </div>
   </section>
 
